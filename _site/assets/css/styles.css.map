@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";",
-		"body {\n\tcolor: green;\n}"
+		"body {\n\tbackground-color: grey;\n\tcolor: white;\n\tmargin: 10%;\n}\n\nbody a {\n\tcolor: blue;\n}\n\nli {\n\tpadding-left: 10px;\n\tpadding-bottom: 10px;\n}\n\nfooter {\n\tbackground-color: black;\n}\n\n.section {\n\tmargin: 5%;\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,IAAI,CAAC,EACJ,KAAK,EAAE,KAAK,GACZ"
+	"mappings": "ACAA,AAAA,IAAI,CAAC,EACJ,gBAAgB,EAAE,IAAI,EACtB,KAAK,EAAE,KAAK,EACZ,MAAM,EAAE,GAAG,GACX;;AAED,AAAA,IAAI,CAAC,CAAC,CAAC,EACN,KAAK,EAAE,IAAI,GACX;;AAED,AAAA,EAAE,CAAC,EACF,YAAY,EAAE,IAAI,EAClB,cAAc,EAAE,IAAI,GACpB;;AAED,AAAA,MAAM,CAAC,EACN,gBAAgB,EAAE,KAAK,GACvB;;AAED,AAAA,QAAQ,CAAC,EACR,MAAM,EAAE,EAAE,GACV"
 }
