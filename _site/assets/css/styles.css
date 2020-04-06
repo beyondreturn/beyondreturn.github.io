@@ -8,11 +8,13 @@ footer { margin-top: 5%; background-color: #544141; color: white; padding: 3% 10
 
 .section { margin: 3% 10% 2% 10%; }
 
+.section h1 { padding-bottom: 2%; }
+
 .bg { padding: 2% 0% 2% 0%; }
 
 .bg-white { background-color: white; color: #544141; }
 
-.bg-color { background-color: #f54a23; color: white; }
+.bg-color { background-color: #4ed2a7; color: white; }
 
 .bg-grey { background-color: #fff8ef; color: #544141; }
 
