@@ -1,22 +1,61 @@
 body {
-	background-color: grey;
-	color: white;
-	margin: 10%;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
 }
 
 body a {
-	color: blue;
+	color: white;
+}
+
+nav {
+
 }
 
 li {
-	padding-left: 10px;
-	padding-bottom: 10px;
+	padding-left: 2em;
+	padding-bottom: 2em;
 }
 
 footer {
-	background-color: black;
+	margin-top: 5%;
+	background-color: #544141;
+	color: white;
+	padding: 3% 10% 2% 10%;
 }
 
+
 .section {
-	margin: 5%;
+	margin: 3% 10% 2% 10%;
+}
+
+.bg {
+	padding: 2% 0% 2% 0%;
+}
+
+.bg-white {
+	background-color: white;
+	color: #544141;
+}
+
+.bg-color {
+	background-color: #f54a23;
+	color: white;
+}
+
+.bg-grey {
+	background-color: #fff8ef;
+	color: #544141;
+}
+
+.title h1 {
+	font-size: 10rem;
+	font-weight: 500;
+	margin-top: 10%;
+	color: white;
+}
+
+.quote {
+	font-style: italic;
 }
