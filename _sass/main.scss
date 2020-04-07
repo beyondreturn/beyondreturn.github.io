@@ -1,18 +1,18 @@
 body {
 	background-color: white;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	line-height: 1.5;
+	line-height: 1.2;
 }
 
 body a {
-	color: #00A1E4;
-	font-weight: 500;
+	color: black;
+	font-weight: 600;
 }
 
 nav {
 	padding: 2%;
-	color: white;
+	color: black;
 }
 
 li {
@@ -21,9 +21,9 @@ li {
 }
 
 footer {
-	background-color: #ea0e55;
+	background-color: black;
 	color: #F2F8FF;
-	padding: 3% 10% 2% 10%;
+	padding: 3% 20% 2% 20%;
 }
 
 .nav-link {
@@ -32,51 +32,58 @@ footer {
 }
 
 .section {
-	margin: 3% 10% 2% 10%;
+	margin: 7% 20% 7% 20%;
+}
+
+.section-0 {
+	margin: 5% 20% 0% 20%;
 }
 
 .section h1 {
 	padding-bottom: 2%;
-	color: #ea0e55;
+	color: black;
 	font-size: 2.5rem;
 }
 
 .bg {
-	padding: 2% 0% 2% 0%;
+	padding: 0% 0% 0% 0%;
 }
 
 .bg-white {
-	background-color: #F2F8FF;
+	background-color: white;
 	color: #333745;
 }
 
 .bg-color {
-	background-color: #ea0e55;
-	color: #F2F8FF;
+	background-color: white;
+	color: black;
 }
 
 .bg-color-2 {
-	background-color: #FE5F55;
-	color: white;
+/*	background-color: #FE5F55;
+	color: white;*/
+	background-color: white;
+	color:  #333745;
+	font-weight: 600;
 }
 
 .bg-color-2 a {
-	color: white;
+	color: black;
 }
 
 .bg-color a {
-	color: white;
+	color: black;
 }
 .bg-color-3 {
-	background-color: #FFFF82;
-	color: #333745;
+
+	color: black;
 }
 
 .title h1 {
-	font-size: 10rem;
-	font-weight: 500;
+	font-size: 11rem;
+	font-weight: 400;
 	margin-top: 10%;
-	color: white;
+	color: #ea0e55;
 }
 
 .quote {
