@@ -112,3 +112,26 @@ nav {
 	padding: 10px;
 }
 
+@media screen and (max-width: 920px) {
+
+	.title h1 {
+		font-size: 3rem;
+	}
+	.button {
+
+	font-weight: 400;
+	color: white;
+	padding: 5px;
+	}
+
+	ol {
+		padding: 0;
+		margin: 0;
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+	}
+}
+
