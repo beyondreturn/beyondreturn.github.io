@@ -1,0 +1,18 @@
+
+<nav id="header-nav" class="nav">
+  <ul id="unmobile-menu" class="site-nav">
+    {% for nav in site.data.menus.headernav %}
+    <li {% if nav.href == page.url %} class="active"{% endif %}>
+      <a class="text-link {% if page.hero-classes contains 'purple' %}white{% endif %}" href="{{ nav.href }}">{{- nav.name -}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <ul id="mobile-menu" class="mobile-nav">
+    {% for nav in site.data.menus.headernav %}
+    <li {% if nav.href == page.url %} class="active"{% endif %}>
+      <a href="{{ nav.href }}">{{- nav.name -}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% include social-nav.html %}
+</nav>

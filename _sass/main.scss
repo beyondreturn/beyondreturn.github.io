@@ -1,159 +1,142 @@
 body {
-
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	line-height: 1.2;
-
-	background-image: linear-gradient(to bottom,rgba(3, 188, 150, 0.0),rgba(3, 154, 123, 0.0)), url("../images/purple.png");
-	height: 100vh;
-	width: 100vw;
-	background-size: 100% 100%;
-	background-color: white;
-	background-repeat: no-repeat;
-	position: relative;
+    box-sizing: border-box;
+    border: 0px solid transparent;
+    padding: 0;
+    margin: 0;
+    height: unset;
+    width: unset;
+    max-width: 100vw;
+    * {
+        box-sizing: border-box;
+        border: 0px solid transparent;
+        padding: 0;
+        margin: 0;
+        height: unset;
+        width: unset;
+    }
+    color: $merlin;
+    font-family: $copyfont;
+    font-size: 18px;
 }
-
-body a {
-	color: #e444dc;
-	font-weight: 600;
+a,a:active,a:visited {
+    display: inline-block;
+    color: $merlin;
+    text-decoration: none;
+    transition: .2s all ease-in-out;
+    &:after {
+        display: block;
+        content: "";
+        background-color: $merlin;
+        padding: 1px 0px;
+        width: 0%;
+        transition: .2s all ease-in-out;
+    }
+    &.text-link:hover:after {
+        width: 100%;
+        transition: .2s all ease-in-out;
+    }
+    &.white {
+        color: white;
+        text-shadow: 0px 0px 4px $merlin;
+        &:after {
+            background: white;
+        }
+    }
+    &.bold {
+        font-weight: 700;
+    }
 }
-
-
-
-li {
-	padding-left: 2em;
-	padding-bottom: 2em;
+h1,h2,h3 { 
+    font-family: $headfont; 
+    margin-bottom: 12px;
 }
-
-footer {
-	background-color: #713bdb;  
-	color: #F2F8FF;
-	padding: 3% 20% 2% 20%;
+h1,h2,h4,h5 { text-transform: uppercase; }
+h1 {
+    font-size: calc(42px + 78 * ((100vw - 300px) / 724));
 }
-
-.nav-link {
-	padding: 1%;
-	font-size: 1rem;
-	color: white;
+h2 {
+    font-size: calc(32px + 22 * ((100vw - 300px) / 724));
 }
-
-nav {
-	padding-top: 1%;
+.purple h1 {
+    text-shadow: 0px 0px 4px $merlin;
 }
-
-.section {
-	margin: 5% 15% 5% 20%;
+h3.quote {
+    color: $turq;
+    font-family: $monofont;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 640px;
 }
-
-.section-text {
-	margin: 0% 15% 0% 20%;
-	padding-top: 2%;
-	padding-bottom: 5%;
-	color: #713bdb;
-	font-weight: 400;
-	line-height: 1.5;
+.purple h3.quote {
+    text-shadow: 0px 0px 4px $merlin;
 }
-
-
-.section h1 {
-	padding-bottom: 2%;
-	color: black;
-	font-size: 2.5rem;
+p {
+    font-weight: 300;
+    margin-bottom: 24px;
 }
-
-.section-bg {
-	background-image: linear-gradient(to bottom,rgba(3, 188, 150, 0.0),rgba(3, 154, 123, 0.0)), url("../images/clearbg.png");
-
-	width: 100vw;
-	background-size: 100% 100%;
-	background-color: #d5bef8;
-	background-repeat: no-repeat;
-	position: relative;
+ul {
+    list-style: square;
+    font-weight: 300;
+    margin-bottom: 40px;
+    li {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
 }
-
-.section-text-bg {
-	margin: 0% 20% 0% 20%;
-	padding-top: 3%;
-	padding-bottom: 5%;
-	color: #532ca0; 
-	font-weight: 400;
-	line-height: 1.5;
+ol {
+    font-weight: 300;
+    margin-bottom: 40px;
+    li {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
 }
-
-
-
-.title h1 {
-	font-size: 6rem;
-	font-weight: 600;
-	padding-top: 7%;
-	color: #f1e8fd;   
+img {
+    margin-bottom: 40px;
 }
-
-.title-color{
-	color: #e444dc;
+.full-width {
+    width: 100%;
+    max-width: 100%;
 }
-.title {
-	color: #f1e8fd;    
+.center {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
 }
-
-.quote {
-	font-style: italic;
-	color: #80d3e3;    
+.hero-bridge {
+    margin-top: -67px;
+    margin-bottom: 24px;
 }
-
-.share-images {
-	padding-top: 3%;
+a.pink-link {
+    color: $pink;
+    font-weight: bold;
+    &:after {
+        background: $pink;
+    }
 }
-
-.button {
-	background-color: #e444dc;
-	font-weight: 600;
-	color: white;
-	padding: 10px;
+a.pink-button {
+    background: $pink;
+    border: 2px outset $pink;
+    color: white;
+    font-family: $monofont;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 24px;
+    margin-bottom: 24px;
+    width: 100%;
+    transition: .1s background ease-in-out;
+    &:hover {
+        cursor: pointer;
+        background: $turq;
+        border: 2px inset $turq;
+        transition: .1s background ease-in-out;
+    }
+    @media only screen and (min-width: $tablet) {
+        width: auto;
+    }
 }
-
-@media screen and (max-width: 920px) {
-
-	.title h1 {
-		font-size: 3rem;
-	}
-	.button {
-
-	font-weight: 400;
-	color: white;
-	padding: 5px;
-	}
-
-	ol {
-		padding: 0;
-		margin: 0;
-	}
-
-	ul {
-		padding: 0;
-		margin: 0;
-	}
-
-	.section {
-	margin: 5% 15% 5% 20%;
-}
-
-.section-text {
-	margin: 0% 10% 0% 10%;
-	padding-top: 2%;
-	padding-bottom: 5%;
-}
-
-
-
-
-.section-text-bg {
-	margin: 0% 10% 0% 10%;
-	padding-top: 3%;
-	padding-bottom: 5%;
-	color: #532ca0; 
-	font-weight: 400;
-	line-height: 1.5;
-}
-}
-

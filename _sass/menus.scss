@@ -1,0 +1,85 @@
+nav#header-nav {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 80px;
+    max-width: 100vw;
+    ul#unmobile-menu {
+        display: none;
+    }
+    ul.social-nav {
+        flex: 1 0 auto;
+        position: absolute;
+        top: 28px;
+        left: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        padding: 0px 0px 0px 20px;
+        margin: 0;
+        width: 30%;
+        max-width: 120px;
+        z-index: 100;
+        li {
+            margin-bottom: 0;
+            a {
+                i.fab {
+                    font-size: 24px;
+                }
+                &:after {
+                    display: none;
+                }
+                &:hover {
+                    color: $turq;
+                }
+            }
+        }
+    }
+}
+/* HEADER MENU TABLET */
+@media only screen and (min-width: $tablet) {
+    nav#header-nav {
+        position: relative;
+        top: unset;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 960px;
+        ul {
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            padding: 0px;
+            margin: 0;
+            &#unmobile-menu { display: flex; }
+            &#mobile-menu { display: none; visibility: hidden; }
+            &.site-nav {
+                flex: 1 0 auto;
+                li {
+                    display: block;
+                    margin-top: -6px;
+                    margin-bottom: 0;
+                    a {
+                        font-size: 14px;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                    }
+                    &.active {
+                        a:after {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            &.social-nav {
+                position: relative;
+                top: unset;
+                left: unset;
+                margin-left: 8%;
+            }
+        }
+    }
+}
