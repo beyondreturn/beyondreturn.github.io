@@ -7,6 +7,7 @@ nav#header-nav {
     max-width: 100vw;
     ul#unmobile-menu {
         display: none;
+        visibility: hidden;
     }
     ul.social-nav {
         flex: 1 0 auto;
@@ -54,8 +55,7 @@ nav#header-nav {
             list-style: none;
             padding: 0px;
             margin: 0;
-            &#unmobile-menu { display: flex; }
-            &#mobile-menu { display: none; visibility: hidden; }
+            &#unmobile-menu { display: flex; visibility: visible; }
             &.site-nav {
                 flex: 1 0 auto;
                 li {

@@ -3,7 +3,7 @@ $color_0: $merlin;
 $color_btn: transparent;
 $color_text: black;
 $color_shadow: #000;
-$color_bg: transparent;
+$color_bg: rgba(255,255,255,0);
 $color_hover_bg: #ccc;
 $color_hover_text: #222;
 
@@ -16,7 +16,6 @@ $color_hover_text: #222;
 	padding: 0px;
 	margin-top: -6px;
 	width: 100vw;
-	transition: .3s all ease-in-out;
 	z-index: 1000;
 	* {
 		box-sizing: border-box;
@@ -64,24 +63,10 @@ $color_hover_text: #222;
 	}
 	&.opened {
 		background: #fff;
-		background-position: 6px 6px;
 		height: 100vh;
 		overflow: scroll;
 		transition: .3s all ease-in-out;
 		.beyondreturn_mobile_btn { position: fixed; top: 0px; right: 0px; }
-		.mobile-logo {
-			display: block;
-		}
-		li a {
-			color: $merlin;
-			text-shadow: 0px 0px 0px;
-			text-align: center;
-			&:after { background: transparent; }
-			&:active {
-				background: $merlin;
-				color: white;
-			}
-		}
 	}
 }
 body.transparent {
@@ -113,6 +98,7 @@ body.transparent {
 	list-style: none;
 	overflow: hidden;
 	ul {
+		background: white;
 		list-style: none;
 		overflow: hidden;
 		padding: 0;
@@ -128,14 +114,27 @@ body.transparent {
 			color: $merlin;
 		}
 	}
+	li {
+		padding-left: 0px;
+		margin-bottom: 0px;
+	}
 	a {
-		padding: 5px 10px;
-		margin: 2px 5px;
+		background: white;
+		color: $merlin;
+		text-align: center;
 		text-decoration: none;
-		color: $color_text;
+		text-shadow: 0px 0px 0px;
+		padding: 20px 20px;
+		margin: 0px;
+		min-width: 100%;
 		&:hover {
 			background: $color_hover_bg;
 			color: $color_hover_text;
+		}
+		&:after { background: transparent; }
+		&:active {
+			background: $merlin;
+			color: white;
 		}
 	}
 	.beyondreturn_mobile_txtnode {
