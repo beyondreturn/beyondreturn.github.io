@@ -26,6 +26,7 @@ We imagine a world where no human needs to toil for their right to mere survival
 Let your imagination dream big. Humans are capable of achieving the extraordinary when they collaborate. We have made our way to other planets, found cures for seemingly impossible diseases and explored the depths of the oceans. It is time for us to apply that creativity and skill to our planet’s social systems.  
 
 Just imagine what we could achieve, if we stopped pitting people, states and countries against each other, [**if we were all in it together.**](/take-action/){: .pink-link .text-link}
+{: .final-section-element}
 
 ## New Solidarities  
 

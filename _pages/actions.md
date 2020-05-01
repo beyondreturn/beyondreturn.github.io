@@ -20,6 +20,7 @@ topsection-quote: >-
 **Are you an organizer whose efforts seek towards these collective goals?** 
 
 Connect your mission here or tell us how we can be in solidarity with you. We want deep collaboration here, specific ways that we can amplify your message. We specifically welcome and seek to amplify voices less heard.
+{: .final-section-element}
 
 ## Click to share these images!
 <a href="/assets/images/1.png" target="_blank" download><img class="full-width" src="/assets/images/1.png"></a>

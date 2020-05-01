@@ -11,6 +11,12 @@ header#beyond-return-header {
     max-width: 1920px;
     z-index: 10000;
     transition: .4s background ease-in-out;
+    .purple & {
+        background: rgba(130, 75, 228, .4);
+    }
+    .transparent & {
+        background: rgba(255,255,255,.6);
+    }
     &.persist {
         background: $cosmic;
         transition: .4s background ease-in-out;
@@ -77,6 +83,7 @@ main {
     }
 }
 article {
+    background: rgba(255,255,255,.7);
     padding: 40px 24px 100px;
     margin: 0 auto;
     max-width: 880px;
