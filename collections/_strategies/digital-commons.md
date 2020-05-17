@@ -1,14 +1,15 @@
 ---
 layout: strategy
-permalink: /strategy-group/:name/
-title: Automation for the People 
+permalink: /strategies/:name/
+title: Digital Commons
 description:
-image:
+image: /assets/images/strategies/digital-commons.jpg
 hero-classes: four20 purple
 bkgdimg-class: version-two
-topsection-title: Automation
+topsection-title: Digital Commons
 topsection-quote: >-
   Towards digital commons and public utilities
+forthcoming: false
 imagine: >-
   <p>What could other realities look like? Can we imagine a company as powerful and omni-present as Amazon to become a public utility? What would our lives look like in that case? Would your daily life look different if your Zoom call was just between you and the person you are calling? Or if you could donate your health data to research, without your health insurer also gaining access?</p>
   

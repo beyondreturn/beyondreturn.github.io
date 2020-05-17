@@ -1,14 +1,11 @@
 ---
 layout: strategy
+published: false
 permalink: /strategies/:name/
 title: 
 description:
 image:
-hero-classes: four20 purple
-bkgdimg-class: version-two
-topsection-title: 
-topsection-quote: >-
-forthcoming: false
+forthcoming: true
 imagine: >-
   
 demand: 
