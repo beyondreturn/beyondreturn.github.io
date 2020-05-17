@@ -44,6 +44,9 @@ a,a:active,a:visited {
     }
     &.bold {
         font-weight: 700;
+        &:hover {
+            color: $pink;
+        }
     }
 }
 h1,h2,h3 { 
@@ -56,6 +59,9 @@ h1 {
 }
 h2 {
     font-size: calc(32px + 22 * ((100vw - 300px) / 724));
+}
+h3 {
+    font-size: calc(20px + 12 * ((100vw - 300px) / 724));
 }
 .purple h1 {
     text-shadow: 0px 0px 4px $merlin;

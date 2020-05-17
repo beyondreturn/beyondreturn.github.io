@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  {% include head.html %}
+  <body class="{{page.hero-classes}}">
+    {% include header.html %}
+    {% include hero.html %}
+    <main class="{{page.hero-classes}} {{page.bkgdimg-class}}">
+      <section class="top-section">
+        <h1>{{page.topsection-title}}</h1>
+        <h3 class="quote">{{page.topsection-quote}}</h3>
+      </section>
+      <article>
+        <section class="strategy-section background-section">
+          <h3>Background:</h3>
+          {{ content }}
+        </section>
+        <section class="strategy-section imagine-section">
+          <h3>Imagine:</h3>
+          {{ page.imagine}}
+        </section>
+        <section class="strategy-section demand-section">
+          <h3>Demand:</h3>
+          <p>{{page.demand-subhead}}</p>
+          <ul>
+            {% for demand in page.demand-list %}
+            <li>{{demand}}</li>
+            {% endfor %}
+          </ul>
+        </section>
+        <section class="strategy-section build-section">
+          <h3>Build:</h3>
+          {{page.build}}
+        </section>
+        <section class="strategy-section defend-section">
+          <h3>Defend:</h3>
+          <p>{{page.defend-subhead}}</p>
+          <ul>
+            {% for defend in page.defend-list %}
+            <li>{{defend}}</li>
+            {% endfor %}
+          </ul>
+        </section>
+        <section class="strategy-section action-section">
+          <h2>What you can do right now!</h2>
+          {{page.action}}
+        </section>
+      </article>
+      
+    </main>
+  </body>
+  {% include footer.html %}
+</html>

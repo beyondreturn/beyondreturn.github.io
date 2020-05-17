@@ -60,3 +60,10 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+# Collections mapping
+collections_dir: collections
+collections:
+  strategies:
+    output: true
+    
