@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Strategies
-permalink: /strategies/
+permalink: /strategies-old/
 hero-classes: four20 purple
 bkgdimg-class: version-two
 topsection-title: Strategies

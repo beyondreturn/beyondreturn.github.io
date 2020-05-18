@@ -1,10 +1,9 @@
 ---
 layout: strategy
-published: false
 permalink: /strategies/:name/
 title: 
 description:
-image:
+image: /assets/images/strategies/earth.jpeg
 forthcoming: true
 imagine: >-
   

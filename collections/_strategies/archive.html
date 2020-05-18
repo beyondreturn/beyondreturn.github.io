@@ -1,0 +1,41 @@
+---
+layout: archive
+permalink: /strategies/
+title: Strategy Groups
+description:
+image:
+hero-classes: four20 purple
+bkgdimg-class: version-two
+topsection-title: Strategy Groups
+topsection-quote: >-
+  "I am not free while any woman is unfree, even if her shackles are very different from my own."<br/>&mdash;Audre Lorde
+---
+<section class="archive-roll">
+    <h2>Current groups</h2>
+    <em>Click on a group to learn more and find out how you can get involved.</em>
+    {% assign strategies = site.strategies %}
+    {% assign live = strategies | where: "forthcoming", "false" %}
+    {% for group in live %}
+    <a class="archive-item" href="{{group.url}}">
+        <div class="item-content">
+            <div class="item-image" style="background-image:url('{{group.image}}');"></div>
+            <h3>{{group.title}}</h3>
+            <span>{{group.topsection-quote}}</span>
+        </div>
+    </a>
+    {% endfor %}
+</section>
+<section class="archive-roll">
+    <h2>Forthcoming groups</h2>
+    <em><a class="bold" href="https://docs.google.com/forms/d/e/1FAIpQLSfrFB3TZrQT4V14viVJpGODggRkTbWyYfSaUtcSomtj6Xzz3w/viewform">Sign up for our newsletter</a> to stay in the flow.</em>
+    {% assign forthcoming = strategies | where: "forthcoming", "true" %}
+    {% for ungroup in forthcoming %}
+    <span class="archive-item forthcoming">
+        <div class="item-content">
+            <div class="item-image" style="background-image:url('{{ungroup.image}}');"></div>
+            <h3>{{ungroup.title}}</h3>
+            <span>{{ungroup.topsection-quote}}</span>
+        </div>
+    </span>
+    {% endfor %}
+</section>

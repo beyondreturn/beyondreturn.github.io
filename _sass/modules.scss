@@ -112,32 +112,65 @@ section.strategy-section {
 }
 section.archive-roll {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(3rem, 1fr));
-    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 3%;
     padding: 40px 0px 80px;
-    &:before {
-        content: '';
-        width: 0;
-        padding-bottom: 100%;
-        grid-row: 1 / 1;
-        grid-column: 1 / 1;
-    }
     h2, em {
-        grid-column: 1 / span 3;
+        grid-column: 1 / -1;
     }
-    h3 {
-        max-width: 25ch;
-    }
+    h2 { margin-bottom: 0px; }
+    em { display: block; font-size: .9em; margin-bottom: 24px;}
 }
 /*----CARDS----*/
-a.archive-item {
-    display: block;
+a.archive-item, span.archive-item {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
     border: 2px solid $merlin;
-    text-align: center;
-    padding: 8%;
-    &:first-child {
-        grid-row: 1 / 1;
-        grid-column: 1 / 1;
+    div.item-content {
+        position: relative;
+        background: $merlin;
+        width: 100%;
+        transition: .2s all ease-in-out;
+        div.item-image {
+            display: block;
+            background-size: cover;
+            background-position: center center;
+            height: 200px;
+            z-index: 1;
+            opacity: .8;
+            filter: grayscale(100%);
+            transition: .2s all ease-in-out;
+        }
+        h3 {
+            position: relative;
+            color: white;
+            text-align: center;
+            padding: 0px 8%;
+            margin: 8% auto;
+            z-index: 2;
+        }
+        span {
+            position: relative;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 0px 8%;
+            margin-bottom: 8%;
+            z-index: 2;
+        }
+    }
+    &:hover div.item-content {
+        background: $cosmic;
+        transition: .2s all ease-in-out;
+        div.item-image {
+            opacity: 1;
+            filter: grayscale(0%);
+            transition: .2s all ease-in-out;
+        }
+    }
+    &.forthcoming {
+        filter: grayscale(100%);
     }
 }
 /*----FOOTER----*/ 
