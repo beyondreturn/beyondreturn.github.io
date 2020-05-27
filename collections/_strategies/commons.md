@@ -21,9 +21,11 @@ demand-list:
 build: >-
   <p>We aim to build, grow and nurture new and existing commons in a multitude of spaces. In the digital space, knowledge and data commons can provide a viable alternative to content paywalled by corporations. In the physical space, land and water commons could help protect and steward vital resources in more sustainable and just ways. In the socio-economic space, land commons can help foster communities and guarantee affordable housing.</p>
   
-
-defend: >-
-  <p>We need to defend our commonly stewarded resources from capture in the form of, for instance, land and water grabbing. We further need to defend against the appropriation of value created by a commons, such as knowledge and ideas. To this end, we focus on the development and promotion of legal tools such as trusts, property rights and licenses to ensure that resources stewarded by a commons stay in the commons.</p>
+defend-subhead: Until we build ourselves better futures, we need to defend against the worst harms.
+defend-list: 
+  - We must defend our commonly stewarded resources from capture in the form of, for instance, land and water grabbing. 
+  - We must fight privacy and human rights violation in courts and on the street
+  - We further need to defend against the appropriation of value created by a commons, such as knowledge and ideas. To this end, we focus on the development and promotion of legal tools such as trusts, property rights and licenses to ensure that resources stewarded by a commons stay in the commons.
 
 action: >-
   <p>Join our strategy group! We are currently looking for campaigners and social media strategists to join our group. Please sign up to join Beyond Return and join one of our recurring onboarding sessions on Sunday (we announce those on Twitter)!</p>
