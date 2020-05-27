@@ -24,7 +24,6 @@ build: >-
 defend-subhead: Until we build ourselves better futures, we need to defend against the worst harms.
 defend-list: 
   - We must defend our commonly stewarded resources from capture in the form of, for instance, land and water grabbing. 
-  - We must fight privacy and human rights violation in courts and on the street
   - We further need to defend against the appropriation of value created by a commons, such as knowledge and ideas. To this end, we focus on the development and promotion of legal tools such as trusts, property rights and licenses to ensure that resources stewarded by a commons stay in the commons.
 
 action: >-
