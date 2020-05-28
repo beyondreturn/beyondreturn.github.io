@@ -12,11 +12,11 @@ topsection-quote: >-
 forthcoming: false
 imagine: >-
   <p>For those of us who have been raised in market economies it is hard to imagine a way out of ‘tragedy of the commons’ type scenarios. Yet, in reality, many commons around the world are flourishing. We aim to bring these stories to wider audiences and to imagine new commons in all areas of economic life. For instance, what would a global water commons look like?</p>
-  
 demand-subhead:
 demand-list: 
   - We demand for the commons to be a legally recognised and protected form of resource management.
   - We demand a definition of economic value that extends beyond that which is measurable in monetary value. We hold that GDP is not an appropriate measure of an economy’s success.
+demand-copy:
 
 build: >-
   <p>We aim to build, grow and nurture new and existing commons in a multitude of spaces. In the digital space, knowledge and data commons can provide a viable alternative to content paywalled by corporations. In the physical space, land and water commons could help protect and steward vital resources in more sustainable and just ways. In the socio-economic space, land commons can help foster communities and guarantee affordable housing.</p>

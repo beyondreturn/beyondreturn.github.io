@@ -6,13 +6,17 @@ description:
 image: /assets/images/strategies/economic-solidarity.jpeg
 forthcoming: true
 imagine: >-
-  
-demand: 
-  
+
+demand-listlead:
+demand-list: 
+demand-copy: >-
+
 build: >-
   
-defend: >-
-  
+defend-listlead: 
+defend-list: 
+defend-copy: >-
+
 action: >-
   
 ---

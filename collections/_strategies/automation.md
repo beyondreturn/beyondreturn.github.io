@@ -14,24 +14,26 @@ imagine: >-
   <p>What could other realities look like? Can we imagine a company as powerful and omni-present as Amazon to become a public utility? What would our lives look like in that case? Would your daily life look different if your Zoom call was just between you and the person you are calling? Or if you could donate your health data to research, without your health insurer also gaining access?</p>
   
   <p>It’s hard to imagine a way out of our current reality, but as Lucille Clifton wrote: “We cannot create what we cannot imagine”. We must look at historical examples, at present-day alternatives, as well as art and science-fiction to help us envision new worlds.</p>
-demand-subhead:
+demand-listlead:
 demand-list: 
   - Collective and democratic control over our digital infrastructure, essential digital services and <a class="bold" href="https://www.theguardian.com/commentisfree/2017/aug/30/nationalise-google-facebook-amazon-data-monopoly-platform-public-interest" target="_blank">platforms</a>.
   - Collective control over our data resources and infrastructure. For instance in the form of <a class="bold" href="https://medium.com/@anoukruhaak/data-trusts-why-what-and-how-a8b53b53d34" target="_blank">data trusts</a>, <a class="bold" href="https://www.nesta.org.uk/feature/four-future-scenarios-personal-data-economy-2035/unlocking-the-value-in-data-as-a-commons/" target="_blank">data commons</a>, <a class="bold" href="https://wiki.p2pfoundation.net/Data_Cooperatives" target="_blank">data cooperatives</a>, or <a class="bold" href="https://thedataunion.eu/" target="_blank">data unions</a>.
   - Free movement and communication between platforms, through <a class="bold" href="https://redecentralize.org/" target="_blank">interoperability</a>.
   - The right and ability for digital communities to govern themselves and their borders, free from surveillance
   - A universal <a class="bold" href="https://www.technologyreview.com/2018/12/14/138615/its-time-for-a-bill-of-data-rights/" target="_blank">bill of digital rights</a>
+demand-copy: >-
 build: >-
   <p>We need to prefigure digital commons and create alternatives for those who want to opt out of the surveillance economy. Many users of online services want better, many companies want to do better, but at the moment they have few alternative models available to them. And what about researchers and nonprofit looking to use data in ways that would benefit society at large. How could we help them do so without putting ourselves at risk?</p>
   
   <p>Build with the most vulnerable in mind; build with public good in mind. Build with a diverse collection of voices in the room.</p>
-defend-subhead: Until we build ourselves better futures, we need to defend against the worst harms.
+defend-listlead: Until we build ourselves better futures, we need to defend against the worst harms.
 defend-list: 
   - We must hold our governments accountable and not stand by silently as they handover the keys of the kingdom to tech firms. 
   - We must fight privacy and human rights violation in courts and on the street
   - We must aid in the adoption of privacy-aware and secure tools
   - We must defend the digital commons from corporate capture
   - We must defend against a free flow of data between nation-states, without a Universal Bill of Data Rights
+defend-copy: >-
 action: >-
   <p>Join our strategy group! We are currently looking for campaigners and social media strategists to join our group. Please sign up to join Beyond Return with this form and join one of our recurring onboarding sessions on Sunday (we announce those on Twitter)!</p>
 ---

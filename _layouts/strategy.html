@@ -20,12 +20,15 @@
         </section>
         <section class="strategy-section demand-section">
           <h3>Demand:</h3>
-          <p>{{page.demand-subhead}}</p>
+          <p>{{page.demand-listlead}}</p>
           <ul>
             {% for demand in page.demand-list %}
             <li>{{demand}}</li>
             {% endfor %}
           </ul>
+          {% if page.demand-copy %}
+          
+          {% endif %}
         </section>
         <section class="strategy-section build-section">
           <h3>Build:</h3>
@@ -33,12 +36,15 @@
         </section>
         <section class="strategy-section defend-section">
           <h3>Defend:</h3>
-          <p>{{page.defend-subhead}}</p>
+          <p>{{page.defend-listlead}}</p>
           <ul>
             {% for defend in page.defend-list %}
             <li>{{defend}}</li>
             {% endfor %}
           </ul>
+          {% if page.defend-copy %}
+
+          {% endif %}
         </section>
         <section class="strategy-section action-section">
           <h2>What you can do right now!</h2>
