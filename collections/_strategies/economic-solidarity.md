@@ -2,6 +2,7 @@
 layout: strategy
 permalink: /strategies/:name/
 title: 
+human-title: Economic Solidarity
 description:
 image: /assets/images/strategies/economic-solidarity.jpeg
 forthcoming: true

@@ -2,6 +2,7 @@
 layout: strategy
 permalink: /strategies/:name/
 title: Commons & Commoning Strategy Group for Beyond Return
+human-title: Commons & Commoning
 description:
 image: /assets/images/strategies/commons.jpg
 hero-classes: four20 purple

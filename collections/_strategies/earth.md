@@ -2,6 +2,7 @@
 layout: strategy
 permalink: /strategies/:name/
 title: 
+human-title: Earth
 description:
 image: /assets/images/strategies/earth.jpeg
 forthcoming: true

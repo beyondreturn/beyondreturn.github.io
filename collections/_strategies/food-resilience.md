@@ -1,4 +1,5 @@
 ---
+published: false
 layout: strategy
 permalink: /strategies/:name/
 title: Food Resilience Strategy Group for Beyond Return
