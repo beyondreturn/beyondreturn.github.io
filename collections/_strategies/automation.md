@@ -1,7 +1,7 @@
 ---
 layout: strategy
 permalink: /strategies/:name/
-title: Automation
+title: Automation Strategy Group for Beyond Return
 description:
 image: /assets/images/strategies/digital-commons.jpeg
 hero-classes: four20 purple
