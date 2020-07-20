@@ -121,6 +121,82 @@ section.archive-roll {
     h2 { margin-bottom: 0px; }
     em { display: block; font-size: .9em; margin-bottom: 24px;}
 }
+section.aspirations {
+    div.aspirations-theme {
+        padding: 40px 32px 54px;
+        div.aspiration {
+            div.aspiration-main {
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid rgba(255,255,255,.6);
+                padding: 20px 0px;
+                h3.aspiration-number {
+                    align-self: flex-start;
+                    font-family: $headfont;
+                    margin: 0 4% 0 0;
+                }
+                span.aspiration-text {
+                    margin: 0 auto 0 0;
+                }
+                span.toggle-aspiration-detail {
+                    display: none;
+                    visibility: hidden;
+                }
+            }
+            p.aspiration-detail {
+                display: none;
+                visibility: hidden;
+            }
+        }
+    }
+    @media only screen and (min-width: $after-mobile) {
+        div.aspirations-theme {
+            div.aspiration {
+                div.aspiration-main {
+                    h3.aspiration-number {
+                        margin: 0 2.5% 0 0;
+                    }
+                    span.toggle-aspiration-detail {
+                        position: relative;
+                        display: block;
+                        visibility: unset;
+                        margin: 0 0 0 12px;
+                        height: 14px;
+                        width: 14px;
+                        &:before, &:after {
+                            display: block;
+                            position: absolute;
+                            content: "";
+                            background: white;
+                            top: calc(50% - 1px);
+                            right: 0;
+                            width: 14px;
+                            height: 2px;
+                        }
+                        &:after {
+                            transform: rotate(-180deg);
+                            transition: .2s all ease-in-out;
+                        }
+                        &.closed:after {
+                            transform: rotate(-90deg);
+                            transition: .2s all ease-in-out;
+                        }
+                    }
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+                p.aspiration-detail {
+                    visibility: unset;
+                    background: rgba(0,0,100,.1);
+                    padding: 24px;
+                }
+            }
+        }
+    }
+}
 /*----CARDS----*/
 a.archive-item, span.archive-item {
     display: flex;

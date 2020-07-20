@@ -6,3 +6,27 @@
         <a class="pink-button" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfrFB3TZrQT4V14viVJpGODggRkTbWyYfSaUtcSomtj6Xzz3w/viewform">Sign up for our newsletter</a>
     </div>
 </footer>
+
+{% if page.title == "Aspirations" %}
+<script>
+    jQuery(function($){
+        $(function(){
+            $(window).on("load",function(){
+                // TABLET ASPIRATIONS ACCORDION
+                var headers = $('.aspiration-main'),
+                    contentAreas = $('.aspiration-details').hide().first().show().end();
+                contentAreas.hide();
+                // add the accordion functionality
+                headers.click(function(){
+                    // open the appropriate panel
+                    $(this).next().slideToggle();
+                    // animate the plus sign
+                    $(this).find(".toggle-aspiration-detail").toggleClass("closed");
+                    // stop page scroll
+                    return false;
+                });
+            })
+        })
+    })
+</script>
+{% endif %}
