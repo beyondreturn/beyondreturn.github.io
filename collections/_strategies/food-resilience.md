@@ -9,8 +9,8 @@ image: /assets/images/strategies/food-resilience.jpg
 hero-classes: four20 purple
 bkgdimg-class: version-three
 topsection-title: Food Resilience
-topsection-quote: >-
-  Nourishing people and planet
+# topsection-quote: >-
+  # Nourishing people and planet
 forthcoming: true
 imagine: >-
   <p>We imagine a world in which everyone has access to the nutrition they want and need, where people know the story of their food and work to maintain a healthy relationship with the soil, water, pollinators, farmers, and preparers of their food.</p>
