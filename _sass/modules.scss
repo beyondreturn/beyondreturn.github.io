@@ -113,7 +113,7 @@ section.strategy-section {
 section.archive-roll {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-gap: 3%;
+    grid-gap: 24px;
     padding: 40px 0px 80px;
     h2, em {
         grid-column: 1 / -1;
