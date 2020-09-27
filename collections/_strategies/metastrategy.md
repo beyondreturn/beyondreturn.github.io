@@ -7,7 +7,7 @@ description:
 image: /assets/images/strategies/meta.jpeg
 hero-classes: four20 purple
 bkgdimg-class: version-two
-topsection-title: The Metastrategy of Beyond Return
+topsection-title: Metastrategy
 topsection-quote: >-
   The key is to succeed in making ‘common sense’ go in a direction of change
 forthcoming: false

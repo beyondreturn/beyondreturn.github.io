@@ -5,7 +5,7 @@ title: Urban Futures
 human-title: Urban Futures
 description:
 image: /assets/images/strategies/urban-futures.jpeg
-forthcoming: false
+forthcoming: true
 imagine: >-
   <p>Long-term visions of the future:<p/>
     <p> #4 Universal access to health, housing, transport, communication and education throughout our lives
