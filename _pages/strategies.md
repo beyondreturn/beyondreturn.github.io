@@ -1,5 +1,5 @@
 ---
-published: 'false'
+published: false
 layout: page
 title: Strategies
 permalink: /strategies-old/
