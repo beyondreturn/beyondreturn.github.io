@@ -40,12 +40,18 @@ We seek social relations with life, beyond anthropocentric speciesism, that envi
 
 A focus on the wellbeing and flourishing of species allows more nuanced approach to diversity than is currently under discussion.
 
-Acknowledging that the history of our species has at times relied on the domination of non-human (and what has been deemed ‘subhuman’) life, we seek a future that moves beyond our dependence on the use of others and toward consensual collaboration. A future that transcends not only the alienation we experience from the ecosystems in which we are embedded, but also the mindset and perspective shift that comes with such a relationship.
-Our historical mindset is one where the same disregard of non-human life, and of perceived nonhuman forms of intelligence is the excuse for domination and extraction of labour of both non white humans and non human animals, is replaced for mutual respect for life variants of different forms. The human is not the gold standard when observed through the sensory systems of many species. It is but one of many lifeforms with much wisdom and skill to contribute to our shared futures.
+Acknowledging that the history of our species has at times relied on the domination of non-human (and what has been deemed ‘subhuman’) life, we seek a future that moves beyond our dependence on the use of others and toward consensual collaboration. A future that transcends not only the alienation we experience from the ecosystems in which we are embedded, but also the mindset and perspective shift that comes with such a relationship. Our historical mindset is one where the same disregard of non-human life, and of perceived nonhuman forms of intelligence is the excuse for domination and extraction of labour of both non white humans and non human animals, is replaced for mutual respect for life variants of different forms. The human is not the gold standard when observed through the sensory systems of many species. It is but one of many lifeforms with much wisdom and skill to contribute to our shared futures.
 
-There is no domination that we encourage; no way to compassionately use or kill a creature, to extract for parts. We thus seek to move beyond competitive modes where domination is inherent to survival, toward non-zero sum ecosystems, where we are all richer for our mutual thrival. We seek to do our best to reduce, minimize, negate, dominion over other life forms. Away from domination that is reckless, motivated by status, by profit, invented problems. Where nature does not support this, we seek to build it. “If nature is unjust, change nature!”
-Where life forms are not compatible with each other, we seek the mutual resolving of conflicts. This is the bar we set in human on human conflict, and we should seek nothing less for all life forms.
+There is no domination that we encourage; no way to compassionately use or kill a creature, to extract for parts. We thus seek to move beyond competitive modes where domination is inherent to survival, toward non-zero sum ecosystems, where we are all richer for our mutual thrival. We seek to do our best to reduce, minimize, negate, dominion over other life forms. Away from domination that is reckless, motivated by status, by profit, invented problems. Where nature does not support this, we seek to build it. “If nature is unjust, change nature\!” Where life forms are not compatible with each other, we seek the mutual resolving of conflicts. This is the bar we set in human on human conflict, and we should seek nothing less for all life forms.
 
 The planet, this home, does not belong to us, we diverse life beings all belong to each other and what we have we, make in common - we are worldless without each other. We seek to create pathways for humans to ‘belong’ to more diverse systems and arrangements, on this planet and others.
 
-Beyond Return’s *Beyond Speciesism* aims to nurture attitudes, mindsets and approaches to other life forms. 
+Beyond Return’s *Beyond Speciesism* aims to nurture attitudes, mindsets and approaches to other life forms.
+
+&nbsp;
+
+# Expert Bank
+
+&nbsp;
+
+&lt;iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fzarinah.agnew%2Fvideos%2F10165035143210261%2F&show\_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"&gt;&lt;/iframe&gt;
