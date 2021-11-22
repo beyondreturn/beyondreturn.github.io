@@ -46,11 +46,9 @@ There is no domination that we encourage; no way to compassionately use or kill 
 
 The planet, this home, does not belong to us, we diverse life beings all belong to each other and what we have we, make in common - we are worldless without each other. We seek to create pathways for humans to ‘belong’ to more diverse systems and arrangements, on this planet and others.
 
-Beyond Return’s *Beyond Speciesism* aims to nurture attitudes, mindsets and approaches to other life forms.
+Beyond Return’s *Beyond Speciesism* aims to nurture attitudes, mindsets and approaches to other life forms.<br>&nbsp;
 
-&nbsp;
-
-# Expert Bank
+### Expert Bank
 
 &nbsp;
 
