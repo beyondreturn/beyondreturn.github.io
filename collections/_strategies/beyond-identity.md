@@ -2,7 +2,7 @@
 layout: strategy
 permalink: /strategies/:name/
 title: Beyond Identity
-human-title: Transformative Justice
+human-title: Beyond Identity
 description:
 image: /assets/images/strategies/transformative-justice.jpeg
 hero-classes: four20 purple
@@ -84,4 +84,5 @@ action: >-
   Return with this form and join one of our recurring onboarding sessions on
   Sunday (we announce those on Twitter)!</p>
 ---
+
 incoming
